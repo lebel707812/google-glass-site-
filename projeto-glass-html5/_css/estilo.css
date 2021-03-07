@@ -1,0 +1,266 @@
+@font-face {
+    font-family: "redemoinho";
+    src: url(../_fonts/Deserve-Regular.ttf);
+    font-family: "luxo";
+    src: url(../_fonts/Regionaire.otf);
+}
+
+body{ 
+    color: rgb(204, 201, 197);
+
+    background-image: url(https://i.pinimg.com/originals/a0/65/a2/a065a22ddd55a031ac86f5701d242cf4.jpg);
+       font-family:"luxo";
+    
+       }
+
+    header#cabecalho img#icone {
+       position: absolute;
+       left:935px;
+       top: 40px;
+
+    }
+    header#cabecalho{
+        border-bottom: 2px grey solid;
+        height: 140px;
+        background-image: url(../_imagens/glass-logo-peq.jpg);
+        background-repeat: no-repeat;
+        background-position-y: 85px;
+    }
+    header#cabecalho h1{
+        font-family:"redemoinho";
+        font-size: 30px;
+        text-shadow: 1px 1px rgba(0,0,0,.4);
+        padding:0px;
+        margin-bottom: 0px;
+    } 
+    header#cabecalho h2{
+        font-family: "redemoinho";
+        font-size: 23px;
+        color:rgb(100, 94, 94);
+        padding: 0px;
+        margin-top: 0px;
+    
+    
+    }
+div#interface{
+      width: 1150px;
+      background-color:rgb(163, 161, 157);
+      margin: 20px auto 0px auto;
+      box-shadow: 0px 0px 10px black;
+      padding: 10px 20px 10px 20px;
+}
+   p{ text-indent:20px;
+      text-align: justify;
+     
+  }
+
+/* formatação de imagens com legendas */
+
+figure.foto-legenda {
+    width: 280px;
+    position: relative;
+    border: 8px solid rgb(153, 138, 128);
+    box-shadow: 1px 3px 4px black;
+    left: 130px;
+    size: 50px;
+
+}
+figure.foto-legenda img{
+    width:100%;
+    height:100%;
+    left: 300px;
+}
+figure.foto-legenda figcaption { 
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    background-color: rgba(0,0,0,.4);
+    color:white;
+    width:100%;
+    height:100%;
+    padding: 15px;
+    box-sizing: border-box;
+    transition: opacity 1s
+}
+figure.foto-legenda:hover figcaption {
+    opacity: 100%;
+}
+
+/* menuzao meczada */
+
+nav#menu {
+    display:block
+}
+
+nav#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top:-30px;
+    left:700px;
+}
+nav#menu li {
+    display: inline-block;
+    background-color: rgb(185, 183, 153);
+    padding: 10px;
+    margin: 10px;
+    transition:background-color 1s;
+    font-family: "luxo";
+}
+
+nav#menu li:hover {
+    background-color: rgb(99, 93, 81);
+}
+
+nav#menu h1 {
+ display:none
+}
+
+nav#menu a {
+    text-decoration: none;
+    color: rgb(109, 105, 99);
+}
+nav#menu a:hover {
+    color: rgb(133, 104, 106);
+    text-decoration-style: dotted;
+}
+
+section#corpo{
+    display: block;
+    width: 640px;
+    float: left;
+    border-right:2px solid gray;
+    padding-right:30px;
+    
+}
+
+table#tabelaespec{
+   border: 1px solid black;
+   border-spacing: 0px;
+   margin-left: auto;
+   margin-right: auto;
+}
+table#tabelaespec td{
+    border:1px solid rgb(80, 77, 77);
+    padding: 10px;
+    text-align: center;
+}
+table#tabelaespec td.ce{
+    color: white;
+    background-color: rgb(80, 77, 77);
+    vertical-align: top;
+
+}
+table#tabelaespec td.cd{
+    background-color: grey;
+
+
+}
+table#tabelaespec caption{
+    font-size: 13pt;
+    font-weight: bolder;
+    margin-bottom: 5px;
+     
+
+}
+
+table#tabelaespec caption span{
+    
+   display: block;
+   float:right;
+   color: black;
+   font-size: 8pt;
+   margin-top: 10px;
+}
+aside#lateral{
+    display:block;
+    width: 450px;
+    float: right;
+    left: 15px;
+    background-color: rgb(90, 88, 88);
+    padding: 5px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+    margin-top: 10px;
+}
+aside#lateral h1 {
+    font-size: 15pt;
+    color: gray;
+    font-family:"redemoinho";
+}
+aside#lateral h3{
+  background-color:rgb(156, 153, 147);
+    font-size:15pt;
+    color:rgb(53, 53, 58);
+    
+    box-shadow: 2px 2px 2px rgba(0,0,0,.4);
+    
+}
+aside#lateral h3.outras{
+    font-family: "redemoinho" sans-serif;
+    font-size:25px;
+    background-color: rgb(90,88,88);
+    box-shadow: none;
+    padding: 5px;
+}
+footer#rodape{
+    clear:both;
+    border-top: 2px solid gray;
+    
+}
+footer#rodape h4 {
+    text-align:center;
+}
+
+div#link a {
+    color: rgb(26, 29, 22);
+}
+
+article#noticias h2 {
+    font-size:15pt;
+    color: rgb(53, 53, 58);
+    background-color: rgb(156, 153, 147);
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+
+header#cabecalho-artigo h1 {
+    font-family: "Redemoinho" ,sans-serif;
+    font-size: 30px; 
+    color: rgba(0, 0, 0, 0.473);
+    margin-bottom: -5px;
+    margin-top: 0px;
+}
+
+header#cabecalho-artigo h2 {
+
+    font-size:15px;
+    background-color:rgb(163, 161, 157);
+    color: grey;
+    margin:0px
+        
+}
+
+header#cabecalho-artigo h3 {
+  font-size: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: grey;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+video#video-menu01 {
+    padding-left: 100px;
+    border: none;
+    outline: none;
+}
+video#video-menu02 {
+    width: 350px;
+    margin-top: -15px;
+    padding-left: 55px;
+    outline: none;
+}
